@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle error in bash scripting when dealing with file processing within a `find` and `while` loop.  The script attempts to process files found using `find`, but it doesn't properly handle potential errors during file processing, which leads to silent failures.  The solution demonstrates a robust method to manage and report errors.
